@@ -1,0 +1,42 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+
+}
+.counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    
+}
+.counter h1{
+    font-size: 80px;
+    margin: 0;
+}
+.counter p{
+    font-size: 150px;
+    margin: 50px auto 50px auto;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.botones button{
+    border-radius: 10px;
+    background: none;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 15px;
+}
